@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE=main.c; gcc $CFILE -c > main.s
+export CFILE=main.c; gcc $CFILE -c > main.s
