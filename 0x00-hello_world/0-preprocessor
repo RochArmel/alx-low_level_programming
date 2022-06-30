@@ -1,2 +1,2 @@
 #!/bin/bash
-echo main.c > main.c
+CFILE=main.c ; echo $CFILE > $CFILE
