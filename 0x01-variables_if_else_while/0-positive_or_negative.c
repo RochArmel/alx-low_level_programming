@@ -3,10 +3,8 @@
 #include <time.h>
 
 /*
- * this program displays wether the number is positive,
- * negative or zero
+ * this program displays wether the number is positive, negative or zero.
  */
-
 int main(void)
 {
 	int n;
@@ -15,12 +13,17 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	if (n < 0)
+	{
 		printf("%d is negative", n);
+	}
 	else if (n > 0)
+	{
 		printf("%d is positive", n);
+	}
 	else
+	{
 		printf("%d is zero", n);
-
+	}
 	return (0);
 }
 
